@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box{
+    background-image: url("../images/shen_long.jpg");
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-size: cover;
+
+}
+#box2{
+    padding: 40px;
+    width: 600px;
+    height: 600px;
+    text-align: left;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid rgb(247,71,90);
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.9;    
+    
+}
+
+#box2 h1{
+    margin-top: 50px;
+}
+
+#esfera{
+    height:50px;
+    width:50px;
+}
+#goku{
+    width: 160px;
+    height: 100px;
+}
+
+#box2 h2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color:gray;
+    font-size: 20px;
+}
+
+
+.lista{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
