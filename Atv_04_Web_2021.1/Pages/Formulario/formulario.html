@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="formulario.css">
+
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="fundo">
+
+        <h2>Projeto Adaptado - DES WEB</h2>
+
+        <div class="caixa">
+
+            <form class="f1" method="GET">
+
+                <h4>Nome</h4>
+                <input class="formulario" type="text" placeholder="Digite seu Nome" size="50px">
+                <h4>Email</h4>
+                <input class="formulario" type="email" placeholder="seuemail@email.com" size="50px">
+                <h4>Idade (opcional)</h4>
+                <input class="formulario" type="text" placeholder="Digite sua idade" size="50px">
+                <h4>Qual opção melhor descreve seu Estado Atual?</h4>
+                <select class="formulario">
+                    <option>Selecione uma opção </option>
+
+                    <option value="estudante"> Estudante</option>
+                    <option value="clt">CLT</option>
+
+                    <option value="nda">Prefiro não Dizer</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+
+                <h4>Você recomendaria esse Projeto?</h4>
+                <div class="f2">
+                    <input class="form" type="radio" id="contactChoice1" name="contact" value="Com certeza">
+                    <label for="contactChoice1">Com certeza</label>
+                    <br>
+                    <input class="form" type="radio" id="contactChoice2" name="contact" value="Talvez">
+                    <label for="contactChoice2">Talvez</label>
+                    <br>
+                    <input class="form" type="radio" id="contactChoice3" name="contact" value="Nao sei">
+                    <label for="contactChoice3">Não sei</label>
+                </div>
+
+
+                <h4>O que Você gostaria de melhorar?</h4> (selecione quantos quiser)
+                <div class="f2">
+
+                    <input type="checkbox" class="form" id="1"><label for="1"> Tempo para Estudar</label>
+                    <br>
+                    <input type="checkbox" class="form" id="2"><label for="2"> Estudar mais o que gosto</label>
+                    <br>
+                    <input type="checkbox" class="form" id="3"><label for="3"> Gerência de Projetos</label>
+                    <br>
+                    <input type="checkbox" class="form" id="4"><label for="4"> NodeJS</label>
+                    <br>
+                </div>
+                <h4>Algum Comentário ou Sugestão?</h4>
+                <textarea name="Sugestoes" id="txt00" cols="63" rows="7" placeholder="SEUS COMENTÁRIOS"></textarea>
+
+                <br>
+                <center>
+                    <button id="butt">ENVIAR</button>
+                </center>
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
